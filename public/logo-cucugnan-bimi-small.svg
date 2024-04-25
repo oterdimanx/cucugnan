@@ -3,7 +3,6 @@
 
 <svg
    baseProfile="tiny-ps"
-   title="Les 7 saveurs de Cucugnan"
    desc="Producteur d'épices et saveurs bucoliques"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -20,6 +19,7 @@
    viewBox="0 0 66.666664 66.666664"
    sodipodi:docname="logo-cucugnan-bimi-small.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <title>Les 7 saveurs de Cucugnan</title>
   <metadata
      id="metadata4807">
     <rdf:RDF>
