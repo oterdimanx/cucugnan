@@ -11,7 +11,7 @@ export default function Map({apiKey}) {
     return (
         <div style={{ height: '70vh', width: '100%' }}>
             <GoogleMapReact
-            bootstrapURLKeys={{ key: 'AIzaSyB3LTjNZRSZ9N7Jdysh5sd36tU3IUirhhc' }}
+            bootstrapURLKeys={{ key: loc.mykey }}
             defaultCenter={loc}
             defaultZoom={15}
             >
