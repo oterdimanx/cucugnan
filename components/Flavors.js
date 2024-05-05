@@ -22,7 +22,11 @@ export default function Flavors() {
                                         </div>
                                     </div>
                                     <h2 className="h5">Safran</h2>
-                                    <p className="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <p className="mb-0">
+                                        Réputé pour ses saveurs riches et sa teinte vibrante, le safran est à lui seul un pur concentré de bien-être :
+                                        riche en antioxydants, il contribue à conserver un système immunitaire sain, grâce à certaines propriétés
+                                        anti-inflammatoires. Le safran élève les plats en nourrissant le corps.
+                                    </p>
                                 </div>
                                 <div className="col mb-5 h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
@@ -31,7 +35,11 @@ export default function Flavors() {
                                         </div>
                                     </div>
                                     <h2 className="h5">Amande</h2>
-                                    <p className="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <p className="mb-0">
+                                        Les amandes sont également synonymes de santé et de vitalité. Riches en vitamine E, en magnésium et en bonnes graisses,
+                                         les amandes favorisent la santé cardiaque, aident à maintenir les fonctions cérébrales en bonne forme, elles sont également 
+                                         bonnes pour la peau et les cheveux, révélant leur bienfaits intemporels.
+                                    </p>
                                 </div>
                                 <div className="col mb-5 mb-md-0 h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
@@ -40,7 +48,12 @@ export default function Flavors() {
                                         </div>
                                     </div>
                                     <h2 className="h5">Poivre du Sichuan</h2>
-                                    <p className="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <p className="mb-0">
+                                        Issu du coeur de la tradition culinaire chinoise, le poivre du Sichuan a la réputation d'apporter à celui qui le consomme 
+                                        une unique et légère sensation d'engourdissement, et ses touches d'agrumes ajoutent toujours du dynamisme à vos plats.
+                                        Cette catégorie particulière de poivre possède également des vertus médicinales, facilitant la digestion, et soulageant certains maux.
+                                        Le poivre du Sichuan présente enfin un fort caractère symbolique, présent dans certains rituels et célébrations traditionnelles chinoises.
+                                    </p>
                                 </div>
                                 <div className="col h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
@@ -49,7 +62,12 @@ export default function Flavors() {
                                         </div>
                                     </div>
                                     <h2 className="h5">Baie de Goji</h2>
-                                    <p className="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <p className="mb-0">
+                                        Originaires des luxuriantes vallées d'Asie, ces minuscules gemmes rouges sont à la fois une friandise, et un élément essentiel pour certaines 
+                                        traditions culturelles. Favorisant le bien-être général avec leurs antioxydants, vitamines, et minéraux, elles renforcent aussi le système 
+                                        immunitaire, aident à garder une belle peau, et contribuent à la santé oculaire. Dans la culture chinoise, elles améliorent vitalité et 
+                                        longévité à celui qui les consomme.
+                                    </p>
                                 </div>
                                 <div className="col mb-5 mb-md-0 h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
@@ -58,7 +76,11 @@ export default function Flavors() {
                                         </div>
                                     </div>
                                     <h2 className="h5">Sel Aromatisé</h2>
-                                    <p className="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <p className="mb-0">
+                                        Infusé d'herbes parfumées, d'épices et d'huiles essentielles, notre sel aromatisé vous fera voyager grâce à son goût relevé et complexe.
+                                        Riches en minéraux et en composés thérapeutiques, les sels aromatisés apaisent les muscles, détoxifient l'organisme, et favorisent la relaxation 
+                                        du corps.
+                                    </p>
                                 </div>
                                 <div className="col h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
@@ -67,7 +89,11 @@ export default function Flavors() {
                                         </div>
                                     </div>
                                     <h2 className="h5">Pistache</h2>
-                                    <p className="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <p className="mb-0">
+                                        Originaires des anciennes terres du Moyen-Orient, les pistaches sont chéries depuis des millénaires comme symboles de vitalité et d'abondance. 
+                                        Regorgeant d'élements nutritifs, ces petits joyaux d'émeraude offrent une pléthore d'avantages pour la santé : graisses saines, fibres, antioxydants, 
+                                        elles contribuent à la bonne santé cardiovasculaire, et se déclinent en une myriade de possibilités culinaires différentes.
+                                    </p>
                                 </div>
                                 <div className="col mb-5 mb-md-0 h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
@@ -76,7 +102,11 @@ export default function Flavors() {
                                         </div>
                                     </div>
                                     <h2 className="h5">Olive</h2>
-                                    <p className="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <p className="mb-0">
+                                        Derrière les bosquets du climat méditerrannéen, les olives représentent richesse culturelle, et saveurs intenses. Leurs graisses saines, et leurs antioxydants 
+                                        ne sont pas les seules propriétés qui ont fait des olives de véritables pierres angulaires de la cuisine du sud de la France. Idéales pour les plats salés, 
+                                        salades, en huile, elles se dégustent également comme des simples fruits.
+                                    </p>
                                 </div>
                             </div>
                         </div>

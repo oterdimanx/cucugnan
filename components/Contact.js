@@ -98,17 +98,17 @@ export default function Contact() {
                     throw new Error(`Invalid response: ${response.status}`);
                 }
                 document.getElementById('submitButton').className = 'disabled';
-                //submitButton.style.cssText = 'display : none; visibility : hidden;';
+                document.getElementById('submitButton').style.cssText = 'display : none; visibility : hidden;';
                 document.getElementById('submitSuccessMessage').className = 'form-success';
                 alert('Thanks for contacting us, we will get back to you soon!');
             } catch (err) {
-                //console.log(err);
+                console.log(err);
                 alert('Form could not be submitted, please try again later');
             }
 
-        } /*else {
-            console.log('ERRORS');
-        }*/
+        } else {
+            console.log('An error occured.');
+        }
 
         arrayMsgs = [];
     }
@@ -151,12 +151,18 @@ export default function Contact() {
                                 <div className="invalid-feedback" data-sb-feedback="message:message" id="messageError">Le champ message n'est pas valide.</div>
                             </div>
                             <div className="d-none" id="submitSuccessMessage">
-                                <div className="text-center mb-3">
-                                    <div className="fw-bolder">Le message a bien été envoyé !</div>
+                                <div className="text-center bg-dark mb-3 form-success-message">
+                                    <div className="fw-bolder text-gold">
+                                        <h3>Votre message a bien été envoyé !</h3>
+                                        <p>
+                                            <a className="text-white home-link" href="./">Merci d'avoir pris la peine de nous contacter.</a>
+                                            Si nécessaire, nous vous recontacterons dans les plus brefs délais.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <div className="d-none" id="submitErrorMessage">
-                                <div className="text-center text-danger mb-3">
+                                <div className="text-center text-bg-warning mb-3">
                                     Une erreur est survenue lors de l'envoi du message
                                 </div>
                             </div>

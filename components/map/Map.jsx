@@ -6,12 +6,12 @@ const loc = {
     lng: 2.607,
     mykey: process.env.REACT_APP_MAPS_API_KEY,
 };
-//console.log(process.env.NODE_ENV)
+
 export default function Map({apiKey}) {
     return (
         <div style={{ height: '70vh', width: '100%' }}>
             <GoogleMapReact
-            bootstrapURLKeys={{ key: process.env.REACT_APP_MAPS_API_KEY }}
+            bootstrapURLKeys={{ key: 'AIzaSyB3LTjNZRSZ9N7Jdysh5sd36tU3IUirhhc' }}
             defaultCenter={loc}
             defaultZoom={15}
             >
