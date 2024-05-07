@@ -21,7 +21,6 @@ export default function Location() {
                         <div className="col-md-auto">
                             <div className="card h-100 shadow border-0">
                                 <Map class="w-100" height="400" />
-
                                 <div className="card-body p-4">
                                     <div className="badge bg-primary bg-gradient rounded-pill mb-2">Routes</div>
                                     <a className="text-decoration-none link-dark stretched-link" href="#!">
@@ -40,7 +39,7 @@ export default function Location() {
                                         <div className="d-flex align-items-center">
                                             <img className="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                                             <div className="small">
-                                                <div className="fw-bold">Vincent Busquet</div>
+                                                <div className="fw-bold">Vincent Xxxxxx</div>
                                                 <div className="text-muted">0673690470</div>
                                             </div>
                                         </div>

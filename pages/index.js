@@ -6,6 +6,7 @@ import Location from '@components/Location'
 import Footer from '@components/Footer'
 
 export default function Home() {
+
   return (
     <div>
       <Head>
@@ -17,14 +18,12 @@ export default function Home() {
         <title>Les 7 saveurs de Cucugnan</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
-
       <main className="flex-shrink-0">
         <Header title="Les 7 saveurs de Cucugnan" />
         <Intro />
         <Flavors />
         <Location />
       </main>
-
       <Footer />
     </div>
   )

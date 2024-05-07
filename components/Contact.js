@@ -1,4 +1,4 @@
-import logoImg from '../public/golden-logo-text-transparent-800-800.png'
+import LogoImg from '@components/logo/LogoImg'
 export default function Contact() {
 
     async function handleSubmit(e){
@@ -100,10 +100,9 @@ export default function Contact() {
                 document.getElementById('submitButton').className = 'disabled';
                 document.getElementById('submitButton').style.cssText = 'display : none; visibility : hidden;';
                 document.getElementById('submitSuccessMessage').className = 'form-success';
-                alert('Thanks for contacting us, we will get back to you soon!');
             } catch (err) {
                 console.log(err);
-                alert('Form could not be submitted, please try again later');
+                console.log('Form could not be submitted, please try again later');
             }
 
         } else {
@@ -126,19 +125,19 @@ export default function Contact() {
                     <div className="col-lg-8 col-xl-6">
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN" onSubmit={handleSubmit}>
                             <div className="form-floating mb-3">
-                                <input className="form-control" id="yourname" type="text" placeholder="Inscrivez votre nom..." data-sb-validations="required" size="150" />
+                                <input className="form-control" id="yourname" type="text" placeholder="Inscrivez votre nom..." data-sb-validations="required" size="150" autoComplete="on" />
                                 <label htmlFor="yourname">Nom Complet</label>
                                 <div className="invalid-feedback" data-sb-feedback="yourname:required">Le nom est requis.</div>
                                 <div className="invalid-feedback" data-sb-feedback="yourname:yourname" id="nameError">Le champ nom n'est pas valide.</div>
                             </div>
                             <div className="form-floating mb-3">
-                                <input className="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input className="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" autoComplete="on" />
                                 <label htmlFor="email">Adresse Email</label>
                                 <div className="invalid-feedback" data-sb-feedback="email:required">L'email est requis.</div>
                                 <div className="invalid-feedback" data-sb-feedback="email:email" id="emailError">Le champ email n'est pas valide.</div>
                             </div>
                             <div className="form-floating mb-3">
-                                <input className="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" pattern="^(?:(?:\+|00)33[\s.-]{0,3}(?:\(0\)[\s.-]{0,3})?|0)[1-9](?:(?:[\s.-]?\d{2}){4}|\d{2}(?:[\s.-]?\d{3}){2})$" />
+                                <input className="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" pattern="^(?:(?:\+|00)33[\s.-]{0,3}(?:\(0\)[\s.-]{0,3})?|0)[1-9](?:(?:[\s.-]?\d{2}){4}|\d{2}(?:[\s.-]?\d{3}){2})$" autoComplete="on" />
                                 <label htmlFor="phone">Téléphone</label>
                                 <div className="invalid-feedback" data-sb-feedback="phone:required">Le téléphone est requis.</div>
                                 <div className="invalid-feedback" data-sb-feedback="phone:phone" id="phoneError">Le champ téléphone n'est pas valide.</div>
@@ -176,9 +175,7 @@ export default function Contact() {
             </div>
             <div className="row gx-5 row-cols-2 row-cols-lg-4 py-5 justify-content-center">
                 <div className="col">
-                    <div className="text-white rounded-3 mb-3">
-                        <img className="img-fluid rounded-3 my-5" src={logoImg.src} alt="Logo 800 image" />
-                    </div>
+                    <LogoImg />
                 </div>
             </div>
         </div>

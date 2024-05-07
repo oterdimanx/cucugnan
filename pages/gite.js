@@ -17,7 +17,7 @@ export default function HomeGite() {
       </Head>
 
       <main className="flex-shrink-0">
-        <Header title="Les 7 saveurs de Cucugnan" />
+        <Header title="Les 7 saveurs de Cucugnan" show="false" />
         <Gite />
       </main>
 
