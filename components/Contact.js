@@ -117,9 +117,13 @@ export default function Contact() {
         <div className="container px-5">
             <div className="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
                 <div className="text-center mb-5">
-                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i className="bi bi-envelope"></i></div>
-                    <h1 className="fw-bolder">Contactez-nous</h1>
-                    <p className="lead fw-normal text-muted mb-0">Nous serons ravis de vous répondre.</p>
+                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                        <i className="bi bi-envelope"></i>
+                    </div>
+                    <h1 className="display-6 fw-bolder">Contactez-nous</h1>
+                    <div className="typing">
+                        <p className="lead fw-normal text-muted mb-0">Nous serons ravis de vous répondre.</p>
+                    </div>
                 </div>
                 <div className="row gx-5 justify-content-center">
                     <div className="col-lg-8 col-xl-6">

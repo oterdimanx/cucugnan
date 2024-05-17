@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-icons/font/bootstrap-icons.css'
+import '@styles/robotoslab.css?family=Roboto+Slab:400,100,300,700'
 import '@styles/globals.css'
 import { useEffect } from 'react'
 

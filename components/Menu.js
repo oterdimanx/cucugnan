@@ -54,12 +54,14 @@ export default function Menu() {
     const toggleNav = () => {
         const elems = document.querySelectorAll('.collapse:not(.show)')
         const collapselems = document.querySelectorAll('.collapsed')
+        const brandElem = document.querySelectorAll('.navbar-brand')
     
         for (const elem of elems) {
             const styles = window.getComputedStyle(elem)
             const display = styles.getPropertyValue('display')
             if('none' === display) {
                 elem.className = 'collapsed navbar-collapsed'
+                brandElem[0].className = 'navbar-brand sticked'
             }
         }
     
@@ -68,6 +70,7 @@ export default function Menu() {
             const display = styles.getPropertyValue('display')
             if('block' === display) {
                 elem.className = 'collapse navbar-collapse'
+                brandElem[0].className = 'navbar-brand'
             }
         }
         changeToggle();

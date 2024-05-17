@@ -15,12 +15,10 @@ export default function HomeContact() {
         <title>Les 7 saveurs de Cucugnan - Contactez-nous</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
-
       <main className="flex-shrink-0">
-        <Header title="Les 7 saveurs de Cucugnan" show="false" />
+        <Header title="Les 7 saveurs de Cucugnan" />
         <Contact />
       </main>
-
       <Footer />
     </div>
   )

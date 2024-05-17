@@ -15,12 +15,10 @@ export default function HomeProducts() {
         <title>Les 7 saveurs de Cucugnan - Nos produits</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
-
       <main className="flex-shrink-0">
-        <Header title="Les 7 saveurs de Cucugnan" show="false" />
+        <Header title="Les 7 saveurs de Cucugnan" />
         <Products />
       </main>
-
       <Footer />
     </div>
   )

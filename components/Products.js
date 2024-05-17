@@ -14,7 +14,7 @@ export default function Products() {
         <section className="bg-dark py-5">
                 <div className="container px-5 my-5">
                     <div className="text-center mb-5">
-                        <h1 className="fw-bolder header-products">Les 7 saveurs de Cucugnan</h1>
+                        <h1 className="display-6 fw-bolder header-products">Les 7 saveurs de Cucugnan</h1>
                         <p className="lead fw-normal text-muted mb-0">Nos produits</p>
                     </div>
                     <div className="row gx-5">
@@ -25,8 +25,15 @@ export default function Products() {
                                         <div className="position-relative mb-5 main-img">
                                             <img className="img-fluid rounded-3 mb-3 mx-auto d-block" src={altSafranImg.src} alt="Cucugnan Nos Produits Safran Image Png" />
                                             <h3 className="h3 fw-bolder">Le safran</h3>
-                                            <p>le safran c'est bon</p>
-                                            
+                                            <p>
+                                                le safran c'est bon
+                                                Ici un texte concernant le safran
+                                                Ici un texte concernant le safran
+                                                Ici un texte concernant le safran
+                                                Ici un texte concernant le safran
+                                                Ici un texte concernant le safran
+                                                Ici un texte concernant le safran
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -57,7 +64,7 @@ export default function Products() {
                                         <p className="product-text rounded-1">Ici un texte concernant les baies de goji</p>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 product-white">
+                                <div className="col-lg-6 product-first-line">
                                     <div className="position-relative mb-5">
                                         <img className="img-fluid rounded-3 mb-3" src={selImg.src} alt="Cucugnan Nos Produits Sel Aromatisé Image" />
                                         <h4 className="h4">Le sel aromatisé</h4>
@@ -66,14 +73,14 @@ export default function Products() {
                                 </div>
                             </div>
                             <div className="row gx-5">
-                                <div className="col-lg-6 product-last-line">
+                                <div className="col-lg-6 product-first-line">
                                     <div className="position-relative mb-5">
                                         <img className="img-fluid rounded-3 mb-3" src={pistacheImg.src} alt="Cucugnan Nos Produits Pistaches Image" />
                                         <h4 className="h4">Les pistaches</h4>
                                         <p className="product-text rounded-1">Ici un texte concernant les pistaches</p>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 product-last-line">
+                                <div className="col-lg-6 product-white">
                                     <div className="position-relative mb-5">
                                         <img className="img-fluid rounded-3 mb-3" src={oliveImg.src} alt="Cucugnan Nos Produits Olives Image" />
                                         <h4 className="h4">Les olives</h4>
