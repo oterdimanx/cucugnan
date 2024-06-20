@@ -1,6 +1,5 @@
 
 import page404BagsImg from '../public/7saveursdecucugnan-bg-404-600.png'
-import LogoImg from '@components/logo/LogoImg'
 export default function NotFound() {
     return (
       <>

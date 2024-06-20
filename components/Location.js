@@ -11,7 +11,7 @@ export default function Location() {
                             <div className="text-center">
                                 <h2 className="fw-bolder">Où sommes-nous ?</h2>
                                 <p className="lead fw-normal text-muted mb-5">
-                                    Dans la région de Perpignan, à Cucugnan, nous saurons vous faire profiter 
+                                    Dans la région des Corbières, à Cucugnan, nous saurons vous faire profiter 
                                     pleinement des senteurs de la garrigue. Veuillez consulter ci-dessous le plan d'accès.
                                 </p>
                             </div>
