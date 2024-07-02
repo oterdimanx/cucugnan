@@ -1,4 +1,6 @@
 //import cucugnanMapImg from '../public/map-cucugnan.png'
+import number7Img from '../public/number-7-bgpurple-40.png'
+
 import Map from '@components/map/Map'
 
 export default function Location() {
@@ -25,7 +27,7 @@ export default function Location() {
                                     <div className="badge bg-primary bg-gradient rounded-pill mb-2">Routes</div>
                                     <a className="text-decoration-none link-dark stretched-link" href="#!">
                                         <h5 className="card-title mb-3">
-                                            Rejoignez nous via l'autoroute xx puis par les départementales Dxx ou Dxx en provenance de xxx.
+                                            Rejoignez nous via les routes départementales D14 et D123.
                                         </h5>
                                     </a>
                                     <p className="card-text mb-0">
@@ -36,11 +38,10 @@ export default function Location() {
                                 </div>
                                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
                                     <div className="d-flex align-items-end justify-content-between">
-                                        <div className="d-flex align-items-center">
-                                            <img className="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                        <div className="d-flex align-items-center map-img-round">
+                                            <img className="rounded-circle me-3 map-seven" src={number7Img.src} alt="Les 7 saveurs de Cucugnan - Bouton Retour haut de page 40*40 rounded" /> 
                                             <div className="small">
-                                                <div className="fw-bold">Vincent Xxxxxx</div>
-                                                <div className="text-muted">0673690470</div>
+                                                <div className="fw-bold"><a className="text-decoration-none link-dark stretched-link" href="./#top">https://www.7saveursdecucugnan.fr</a></div>
                                             </div>
                                         </div>
                                     </div>

@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div className="col-auto"><div className="small m-0 text-white">Copyright &copy; Les 7 saveurs de Cucugnan 2024</div></div>
                     <div className='col-auto'>
-                      <img src="/golden-logo-transparent-150-150.png" alt="Les 7 saveurs de Cucugnan Logo 150" className={styles.logo} />
+                      <img src="/golden-logo-transparent-200-200.png" alt="Les 7 saveurs de Cucugnan Logo 200" className={styles.logo} />
                     </div>
                     <div className="col-auto">
                         <a className="link-light small" href="./cgu#datas">Gestion des Données Personnelles</a>

@@ -1,10 +1,10 @@
-import saffronImg from '../public/features-saffron-48-48.png'
-import almondImg from '../public/features-almond-48-48.png'
-import sichuanImg from '../public/features-sichuan-pepper-48-48.png'
-import gojiImg from '../public/features-goji-baie-48-48.png'
-import saltImg from '../public/features-aromatic-salt-48-48.png'
-import pistachioImg from '../public/features-pistachio-48-48.png'
-import oliveImg from '../public/features-olive-48-48.png'
+import saffronImg from '../public/flavors/features-saffron-48-48.png'
+import almondImg from '../public/flavors/features-almond-48-48.png'
+import sichuanImg from '../public/flavors/features-sichuan-pepper-48-48.png'
+import gojiImg from '../public/flavors/features-goji-baie-48-48.png'
+import saltImg from '../public/flavors/features-aromatic-salt-48-48.png'
+import pistachioImg from '../public/flavors/features-pistachio-48-48.png'
+import oliveImg from '../public/flavors/features-olive-48-48.png'
 
 export default function Flavors() {
     return (

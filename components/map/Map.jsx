@@ -1,12 +1,16 @@
 import GoogleMapReact from 'google-map-react'
 
 const loc = {
-    address: 'Cucugnan',
-    lat: 42.841,
-    lng: 2.607,
+    address: ' ',
+    lat: 42.844,
+    lng: 2.603,
 };
 
 export default function Map() {
+
+    const Marker= props => {
+        return <div className="pin">{loc.address}</div>
+    }
 
     return (
         <div style={{ height: '70vh', width: '100%' }} id='google-map'>
@@ -15,6 +19,7 @@ export default function Map() {
             defaultCenter={loc}
             defaultZoom={15}
             >
+            <Marker lat={loc.lat} lng={loc.lng} />
             </GoogleMapReact>
         </div>
     );
