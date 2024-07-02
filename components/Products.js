@@ -14,15 +14,17 @@ export default function Products() {
         <section className="bg-dark py-5">
             <div className="container px-5 my-5">
                 <div className="text-center mb-5">
-                    <h1 className="display-6 fw-bolder header-products">Les 7 saveurs de Cucugnan</h1>
-                    <p className="lead fw-normal text-muted mb-0">Nos produits</p>
+                    <h1 className="display-6 fw-bolder header-products">Nos produits</h1>
+                    <p className="lead fw-normal text-muted mb-0">Les 7 saveurs de Cucugnan vous présente ses différentes épices, 
+                    dont la vente se fait sur place. En attendant que les commandes puissent être passées via notre site, il vous faudra 
+                    venir sur place pour les découvrir. Sinon, contactez-nous.</p>
                 </div>
                 <article className="postcard dark blue">
                     <div className="postcard__img_link">
-                        <img className="postcard__img"  src={altSafranImg.src} alt="Cucugnan Nos Produits Safran Image Png" id="saffron"  />
+                        <img className="postcard__img" src={altSafranImg.src} alt="Cucugnan Nos Produits Safran Image Png" id="saffron"  />
                     </div>
                     <div className="postcard__text">
-                        <h1 className="postcard__title blue"><a href="#">Le Safran</a></h1>
+                        <h1 className="postcard__title blue"><a href="./nos-produits#saffron">Le Safran</a></h1>
                         <div className="postcard__subtitle small">
                             <p>
                                 L'or rouge de Crète
@@ -53,19 +55,24 @@ export default function Products() {
                             </p>
                         </div>
                         <ul className="postcard__tagbox">
-                            <li className="tag__item"><i className="fas fa-tag mr-2"></i>Découvrez le gite</li>
+                            <li className="tag__item">
+                                <a href="./gite">
+                                    <i className="fas fa-tag mr-2"></i>
+                                    Découvrez le gite
+                                </a>
+                            </li>
                             <li className="tag__item play blue">
-                                <a href="#"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
+                                <a href="./contact"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
                             </li>
                         </ul>
                     </div>
                 </article>
                 <article className="postcard dark yellow">
-                    <a className="postcard__img_link" href="#">
+                    <a className="postcard__img_link" href="./nos-produits#almond">
                         <img className="postcard__img" src={AmandeImg.src} alt="Cucugnan Nos Produits Amande Image" id="almond" />
                     </a>
                     <div className="postcard__text">
-                        <h1 className="postcard__title yellow"><a href="#">L'amande</a></h1>
+                        <h1 className="postcard__title yellow"><a href="./nos-produits#almond">L'amande</a></h1>
                         <div className="postcard__subtitle small">
                             <p>
                                 Symbole de fertilité
@@ -94,19 +101,24 @@ export default function Products() {
                             </p>
                         </div>
                         <ul className="postcard__tagbox">
-                            <li className="tag__item"><i className="fas fa-tag mr-2"></i>Découvrez le gite</li>
+                            <li className="tag__item">
+                                <a href="./gite">
+                                    <i className="fas fa-tag mr-2"></i>
+                                    Découvrez le gite
+                                </a>
+                            </li>
                             <li className="tag__item play yellow">
-                                <a href="#"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
+                                <a href="./contact"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
                             </li>
                         </ul>
                     </div>
                 </article>
                 <article className="postcard dark blue">
-                    <a className="postcard__img_link" href="#">
+                    <a className="postcard__img_link" href="./nos-produits#sichuan">
                         <img className="postcard__img" src={sichuanImg.src} alt="Cucugnan Nos Produits Poivre du Sichuan Image" id="sichuan" />
                     </a>
                     <div className="postcard__text">
-                        <h1 className="postcard__title blue"><a href="#">Le poivre du Sichuan</a></h1>
+                        <h1 className="postcard__title blue"><a href="./nos-produits#sichuan">Le poivre du Sichuan</a></h1>
                         <div className="postcard__subtitle small">
                             <p>
                                Le poivre des hauteurs
@@ -132,19 +144,24 @@ export default function Products() {
                         </p>
                         </div>
                         <ul className="postcard__tagbox">
-                            <li className="tag__item"><i className="fas fa-tag mr-2"></i>Découvrez le gite</li>
+                            <li className="tag__item">
+                                <a href="./gite">
+                                    <i className="fas fa-tag mr-2"></i>
+                                    Découvrez le gite
+                                </a>
+                            </li>
                             <li className="tag__item play blue">
-                                <a href="#"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
+                                <a href="./contact"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
                             </li>
                         </ul>
                     </div>
                 </article>
                 <article className="postcard dark yellow">
-                    <a className="postcard__img_link" href="#">
+                    <a className="postcard__img_link" href="./nos-produits#goji">
                         <img className="postcard__img" src={gojiImg.src} alt="Cucugnan Nos Produits Baies de Goji Image" id="goji" />
                     </a>
                     <div className="postcard__text">
-                        <h1 className="postcard__title yellow"><a href="#">Les baies de Goji</a></h1>
+                        <h1 className="postcard__title yellow"><a href="./nos-produits#goji">Les baies de Goji</a></h1>
                         <div className="postcard__subtitle small">
                             <p>
                                18 acides aminés et 21 minéraux
@@ -170,19 +187,24 @@ export default function Products() {
                             </p>
                         </div>
                         <ul className="postcard__tagbox">
-                            <li className="tag__item"><i className="fas fa-tag mr-2"></i>Découvrez le gite</li>
+                            <li className="tag__item">
+                                <a href="./gite">
+                                    <i className="fas fa-tag mr-2"></i>
+                                    Découvrez le gite
+                                </a>
+                            </li>
                             <li className="tag__item play yellow">
-                                <a href="#"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
+                                <a href="./contact"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
                             </li>
                         </ul>
                     </div>
                 </article>
                 <article className="postcard dark blue">
-                    <a className="postcard__img_link" href="#">
+                    <a className="postcard__img_link" href="./nos-produits#salt">
                         <img className="postcard__img" src={selImg.src} alt="Cucugnan Nos Produits Sel Aromatisé Image" id="salt" />
                     </a>
                     <div className="postcard__text">
-                        <h1 className="postcard__title blue"><a href="#">Le sel aromatisé</a></h1>
+                        <h1 className="postcard__title blue"><a href="./nos-produits#salt">Le sel aromatisé</a></h1>
                         <div className="postcard__subtitle small">
                             <p>
                                L'or blanc des celtes
@@ -204,19 +226,24 @@ export default function Products() {
                             </p>
                         </div>
                         <ul className="postcard__tagbox">
-                            <li className="tag__item"><i className="fas fa-tag mr-2"></i>Découvrez le gite</li>
+                            <li className="tag__item">
+                                <a href="./gite">
+                                    <i className="fas fa-tag mr-2"></i>
+                                    Découvrez le gite
+                                </a>
+                            </li>
                             <li className="tag__item play blue">
-                                <a href="#"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
+                                <a href="./contact"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
                             </li>
                         </ul>
                     </div>
                 </article>
                 <article className="postcard dark yellow">
-                    <a className="postcard__img_link" href="#">
+                    <a className="postcard__img_link" href="./nos-produits#pistaccio">
                         <img className="postcard__img" src={pistacheImg.src} alt="Cucugnan Nos Produits Pistaches Image" id="pistaccio" />
                     </a>
                     <div className="postcard__text">
-                        <h1 className="postcard__title yellow"><a href="#">Les pistaches</a></h1>
+                        <h1 className="postcard__title yellow"><a href="./nos-produits#pistaccio">Les pistaches</a></h1>
                         <div className="postcard__subtitle small">
                             <p>
                                Un arôme unique venu de Perse
@@ -242,19 +269,24 @@ export default function Products() {
                             </p>
                         </div>
                         <ul className="postcard__tagbox">
-                            <li className="tag__item"><i className="fas fa-tag mr-2"></i>Découvrez le gite</li>
+                            <li className="tag__item">
+                                <a href="./gite">
+                                    <i className="fas fa-tag mr-2"></i>
+                                    Découvrez le gite
+                                </a>
+                            </li>
                             <li className="tag__item play yellow">
-                                <a href="#"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
+                                <a href="./contact"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
                             </li>
                         </ul>
                     </div>
                 </article>
                 <article className="postcard dark blue">
-                    <a className="postcard__img_link" href="#">
+                    <a className="postcard__img_link" href="./nos-produits#olive">
                         <img className="postcard__img" src={oliveImg.src} alt="Cucugnan Nos Produits Olives Image" id="olive" />
                     </a>
                     <div className="postcard__text">
-                        <h1 className="postcard__title blue"><a href="#">Les olives</a></h1>
+                        <h1 className="postcard__title blue"><a href="./nos-produits#olive">Les olives</a></h1>
                         <div className="postcard__subtitle small">
                             <p>
                                Parmi les plus vieux fruits de notre Monde
@@ -277,14 +309,19 @@ export default function Products() {
                             </p>
                         </div>
                         <ul className="postcard__tagbox">
-                            <li className="tag__item"><i className="fas fa-tag mr-2"></i>Découvrez le gite</li>
+                            <li className="tag__item">
+                                <a href="./gite">
+                                    <i className="fas fa-tag mr-2"></i>
+                                    Découvrez le gite
+                                </a>
+                            </li>
                             <li className="tag__item play blue">
-                                <a href="#"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
+                                <a href="./contact"><i className="fas fa-play mr-2"></i>Contactez-nous</a>
                             </li>
                         </ul>
                     </div>
                 </article>
-                <div className="row gx-5 row-cols-2 row-cols-lg-4 py-5 justify-content-center">
+                <div className="row gx-5 row-cols-1 row-cols-lg-4 py-5 justify-content-center">
                     <div className="col">
                         <LogoImg />
                     </div>

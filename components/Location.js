@@ -41,7 +41,11 @@ export default function Location() {
                                         <div className="d-flex align-items-center map-img-round">
                                             <img className="rounded-circle me-3 map-seven" src={number7Img.src} alt="Les 7 saveurs de Cucugnan - Bouton Retour haut de page 40*40 rounded" /> 
                                             <div className="small">
-                                                <div className="fw-bold"><a className="text-decoration-none link-dark stretched-link" href="./#top">https://www.7saveursdecucugnan.fr</a></div>
+                                                <div className="fw-bold">
+                                                    <a className="text-decoration-none link-dark condensed-link" href="./#top">
+                                                        https://www.7saveursdecucugnan.fr
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

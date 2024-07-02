@@ -26,7 +26,7 @@ export default function Intro() {
                         </div>
                     </div>
                     <div className="col-xl-5 col-xxl-6 d-xl-block text-center">
-                        <img className="img-fluid rounded-3 my-5" src={homepageBagsImg.src} alt="homepage-bags1-600-400.png image" />
+                        <img className="img-fluid rounded-3 my-4" src={homepageBagsImg.src} alt="homepage-bags1-600-400.png image" />
                     </div>
                 </div>
             </div>

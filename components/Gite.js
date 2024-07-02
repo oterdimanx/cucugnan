@@ -35,7 +35,7 @@ export default function Gite() {
                             <img className="img-fluid rounded mb-5 mb-lg-0" src={GiteQueribusImg.src} alt="Les 7 saveurs de Cucugnan - Le Gite - Chateau de Queribus png" />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder">
+                            <h2 className="fw-bolder title-gite">
                                 Le cadre
                             </h2>
                             <p className="regular text-muted mb-0 text-gite">
@@ -58,7 +58,7 @@ export default function Gite() {
                             <img className="img-fluid rounded mb-5 mb-lg-0" src={GiteSafariLodgeImg.src} alt="Les 7 saveurs de Cucugnan - Le Gite - Luxury Safari Lodge - Photo Extérieur png" />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder">Un intérieur chaleureux</h2>
+                            <h2 className="fw-bolder title-gite">Un intérieur chaleureux</h2>
                             <p className="regular text-muted mb-0 text-gite">
                                 A 40 minutes de Perpignan, et 1h15 de Carcassonne, notre gite en pleine nature vous séduira.
                             </p>

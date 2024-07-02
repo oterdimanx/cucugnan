@@ -33,9 +33,28 @@ export default function Flavors() {
                                 Ainsi, les cultures résultantes sont enrichies en potassium et en magnésium.
                             </p>
                         </div>
+
+                        <div className="col mb-5 h-100 toggle-saffron">
+                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                        <div className="flavors-ico">
+                                            <img className="img-fluid rounded-3 my-5" src={saffronImg.src} alt="features-saffron-48-48.png image" />
+                                        </div>
+                                    </div>
+                                    <h2 className="h5">
+                                        <a href="./nos-produits#saffron">
+                                            Safran
+                                        </a>
+                                    </h2>
+                                    <p className="mb-0">
+                                        Réputé pour ses saveurs riches et sa teinte vibrante, le safran est à lui seul un pur concentré de bien-être :
+                                        riche en antioxydants, il contribue à conserver un système immunitaire sain, grâce à certaines propriétés
+                                        anti-inflammatoires. Le safran élève les plats en nourrissant le corps.
+                                    </p>
+                                </div>
+
                         <div className="col-lg-8">
                             <div className="row gx-5 row-cols-1 row-cols-md-2">
-                                <div className="col mb-5 h-100">
+                                <div className="col mb-5 h-100 saffron">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <div className="flavors-ico">
                                             <img className="img-fluid rounded-3 my-5" src={saffronImg.src} alt="features-saffron-48-48.png image" />
@@ -69,7 +88,7 @@ export default function Flavors() {
                                          bonnes pour la peau et les cheveux, révélant leur bienfaits intemporels.
                                     </p>
                                 </div>
-                                <div className="col mb-5 mb-md-0 h-100">
+                                <div className="col mb-5 h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <div className="flavors-ico">
                                             <img className="img-fluid rounded-3 my-5" src={sichuanImg.src} alt="features-sichuan-pepper-48-48.png image" />
@@ -87,7 +106,7 @@ export default function Flavors() {
                                         Le poivre du Sichuan présente enfin un fort caractère symbolique, présent dans certains rituels et célébrations traditionnelles chinoises.
                                     </p>
                                 </div>
-                                <div className="col h-100">
+                                <div className="col mb-5 h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <div className="flavors-ico">
                                             <img className="img-fluid rounded-3 my-5" src={gojiImg.src} alt="features-goji-baie-48-48.png image" />
@@ -105,7 +124,7 @@ export default function Flavors() {
                                         longévité à celui qui les consomme.
                                     </p>
                                 </div>
-                                <div className="col mb-5 mb-md-0 h-100">
+                                <div className="col mb-5 h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <div className="flavors-ico">
                                             <img className="img-fluid rounded-3 my-5" src={saltImg.src} alt="features-aromatic-salt-48-48.png image" />
@@ -122,7 +141,7 @@ export default function Flavors() {
                                         du corps.
                                     </p>
                                 </div>
-                                <div className="col h-100">
+                                <div className="col mb-5 h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <div className="flavors-ico">
                                             <img className="img-fluid rounded-3 my-5" src={pistachioImg.src} alt="features-pistachio-48-48.png image" />
@@ -139,7 +158,7 @@ export default function Flavors() {
                                         elles contribuent à la bonne santé cardiovasculaire, et se déclinent en une myriade de possibilités culinaires différentes.
                                     </p>
                                 </div>
-                                <div className="col mb-5 mb-md-0 h-100">
+                                <div className="col mb-5 h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <div className="flavors-ico">
                                             <img className="img-fluid rounded-3 my-5" src={oliveImg.src} alt="features-olive-48-48.png image" />
