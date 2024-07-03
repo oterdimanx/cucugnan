@@ -37,13 +37,13 @@ export default function Location() {
                                     </p>
                                 </div>
                                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                    <div className="d-flex align-items-end justify-content-between">
+                                    <div className="d-flex align-items-end justify-content-between card-footer-7">
                                         <div className="d-flex align-items-center map-img-round">
                                             <img className="rounded-circle me-3 map-seven" src={number7Img.src} alt="Les 7 saveurs de Cucugnan - Bouton Retour haut de page 40*40 rounded" /> 
                                             <div className="small">
                                                 <div className="fw-bold">
                                                     <a className="text-decoration-none link-dark condensed-link" href="./#top">
-                                                        https://www.7saveursdecucugnan.fr
+                                                        7saveursdecucugnan.fr
                                                     </a>
                                                 </div>
                                             </div>

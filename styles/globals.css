@@ -4303,6 +4303,10 @@ textarea.form-control-lg {
   border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
 }
 
+.card-footer-7 {
+  overflow: hidden;
+}
+
 .card-header-tabs {
   margin-right: calc(-0.5 * var(--bs-card-cap-padding-x));
   margin-bottom: calc(-1 * var(--bs-card-cap-padding-y));
@@ -6809,9 +6813,15 @@ textarea.form-control-lg {
   color: #1a1e21 !important;
 }
 
+.condensed-link {
+  max-width: auto;
+  display: block;
+}
+
 @media screen and (min-width: 450px) {
   .condensed-link {
-    max-width: 50%;
+    max-width: 160px;
+    display: block;
   }
 }
 
@@ -10914,6 +10924,10 @@ textarea.form-control-lg {
   font-size: 1.5rem;
 }
 
+.feature-card-text {
+  padding: 5px 5px 5px 0;
+}
+
 .bg-featured-blog {
   height: 100%;
   width: 100%;
@@ -11138,7 +11152,7 @@ span {
 */
 .typing {
   position: relative;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, #3333) !important;
+  /*-webkit-box-reflect: below 1px linear-gradient(transparent, #3333) !important;*/
 }
 
 .typing p {
@@ -11423,7 +11437,7 @@ a, a:hover {
 .postcard .postcard__tagbox .tag__item:hover {
   background-color: rgba(83, 83, 83, 0.8);
 }
-/*
+
 .postcard::before {
   content: "";
   position: absolute;
@@ -11431,10 +11445,10 @@ a, a:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(-70deg, #424242, transparent 50%) !important;
+  background-image: linear-gradient(-70deg, #434343, transparent 50%) !important;
   opacity: 1;
   border-radius: 10px;
-}*/
+}
 
 .postcard:hover .postcard__bar {
   width: 100%;
@@ -11494,7 +11508,6 @@ a, a:hover {
       right: -12px !important;
       transform: rotate(-4deg);
     }
-
 }
 @media screen and (min-width: 770px) and (max-width: 1023px) {
     .postcard__img {
@@ -11505,20 +11518,11 @@ a, a:hover {
 		.postcard__text {
       padding: 2rem 3.5rem !important;
     }
-		/*
-		.postcard__text::before {
-      content: "";
-      position: absolute;
-      display: block;
-      background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
-      top: -20%;
-      height: 130%;
-      width: 55px;
-      left: -4%;
-    }*/
+
     .postcard__img {
       position: sticky;
       top: 30%;
+      left: 1.5rem;
     }
 }
 

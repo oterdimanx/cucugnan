@@ -25,6 +25,8 @@ export default function Flavors() {
                             <p>
                                 Cette terre rouge argilo-calcaire est remplie de minéraux, l'<u>idéal</u> pour une production saine, et 
                                 selon des procédés entièrement naturels.
+                            </p>
+                            <p>
                                 C'est la garantie d'un terroir équilibré et calibré pour toutes ces plantations, ayant la capacité 
                                 d'apporter une alimentation enrichie en fer et en nutriments.
                             </p>
@@ -45,13 +47,21 @@ export default function Flavors() {
                                             Safran
                                         </a>
                                     </h2>
-                                    <p className="mb-0">
+                                    <p className="mb-0 feature-card-text">
                                         Réputé pour ses saveurs riches et sa teinte vibrante, le safran est à lui seul un pur concentré de bien-être :
-                                        riche en antioxydants, il contribue à conserver un système immunitaire sain, grâce à certaines propriétés
-                                        anti-inflammatoires. Le safran élève les plats en nourrissant le corps.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                riche en antioxydants, il contribue à conserver un système immunitaire sain, grâce à certaines propriétés
+                                                anti-inflammatoires.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <p className="mb-0 feature-card-text">
+                                        Le safran élève les plats en nourrissant le corps.
                                     </p>
                                 </div>
-
                         <div className="col-lg-8">
                             <div className="row gx-5 row-cols-1 row-cols-md-2">
                                 <div className="col mb-5 h-100 saffron">
@@ -65,10 +75,19 @@ export default function Flavors() {
                                             Safran
                                         </a>
                                     </h2>
-                                    <p className="mb-0">
+                                    <p className="mb-0 feature-card-text">
                                         Réputé pour ses saveurs riches et sa teinte vibrante, le safran est à lui seul un pur concentré de bien-être :
-                                        riche en antioxydants, il contribue à conserver un système immunitaire sain, grâce à certaines propriétés
-                                        anti-inflammatoires. Le safran élève les plats en nourrissant le corps.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                riche en antioxydants, il contribue à conserver un système immunitaire sain, grâce à certaines propriétés
+                                                anti-inflammatoires.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <p className="mb-0 feature-card-text">
+                                        Le safran élève les plats en nourrissant le corps.
                                     </p>
                                 </div>
                                 <div className="col mb-5 h-100">
@@ -82,10 +101,15 @@ export default function Flavors() {
                                             Amande
                                         </a>
                                     </h2>
-                                    <p className="mb-0">
-                                        Les amandes sont également synonymes de santé et de vitalité. Riches en vitamine E, en magnésium et en bonnes graisses,
-                                         les amandes favorisent la santé cardiaque, aident à maintenir les fonctions cérébrales en bonne forme, elles sont également 
-                                         bonnes pour la peau et les cheveux, révélant leur bienfaits intemporels.
+                                    <p className="mb-0 feature-card-text">
+                                        Les amandes sont également synonymes de santé et de vitalité. 
+                                    </p>
+                                    <p className="mb-0 feature-card-text">
+                                        Riches en vitamine E, en magnésium et en bonnes graisses, les amandes favorisent 
+                                        la santé cardiaque, et aident à maintenir les fonctions cérébrales en bonne forme. 
+                                    </p>
+                                    <p className="mb-0 feature-card-text">
+                                        Elles sont également bonnes pour la peau et les cheveux, révélant leur bienfaits intemporels.
                                     </p>
                                 </div>
                                 <div className="col mb-5 h-100">
@@ -99,10 +123,14 @@ export default function Flavors() {
                                             Poivre du Sichuan
                                         </a>
                                     </h2>
-                                    <p className="mb-0">
+                                    <p className="mb-0 feature-card-text">
                                         Issu du coeur de la tradition culinaire chinoise, le poivre du Sichuan a la réputation d'apporter à celui qui le consomme 
                                         une unique et légère sensation d'engourdissement, et ses touches d'agrumes ajoutent toujours du dynamisme à vos plats.
+                                    </p>
+                                    <p className="mb-0 feature-card-text">
                                         Cette catégorie particulière de poivre possède également des vertus médicinales, facilitant la digestion, et soulageant certains maux.
+                                    </p>
+                                    <p className="mb-0 feature-card-text">
                                         Le poivre du Sichuan présente enfin un fort caractère symbolique, présent dans certains rituels et célébrations traditionnelles chinoises.
                                     </p>
                                 </div>
@@ -117,10 +145,31 @@ export default function Flavors() {
                                             Baie de Goji
                                         </a>
                                     </h2>
-                                    <p className="mb-0">
-                                        Originaires des luxuriantes vallées d'Asie, ces minuscules gemmes rouges sont à la fois une friandise, et un élément essentiel pour certaines 
-                                        traditions culturelles. Favorisant le bien-être général avec leurs antioxydants, vitamines, et minéraux, elles renforcent aussi le système 
-                                        immunitaire, aident à garder une belle peau, et contribuent à la santé oculaire. Dans la culture chinoise, elles améliorent vitalité et 
+                                    <p className="mb-0 feature-card-text">
+                                        Originaires des luxuriantes vallées d'Asie, ces minuscules gemmes rouges sont à la fois une friandise, et un élément essentiel pour certaines traditions culturelles. 
+                                    </p>
+                                    <p className="mb-0 feature-card-text">
+                                        Favorisant le bien-être général avec leurs antioxydants, vitamines, et minéraux, 
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                elles renforcent aussi le système immunitaire, 
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                aident à garder une belle peau, 
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                et contribuent à la santé oculaire.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <p className="mb-0 feature-card-text">
+                                        Dans la culture chinoise, elles améliorent vitalité et 
                                         longévité à celui qui les consomme.
                                     </p>
                                 </div>
@@ -135,11 +184,29 @@ export default function Flavors() {
                                             Sel Aromatisé
                                         </a>
                                     </h2>
-                                    <p className="mb-0">
+                                    <p className="mb-0 feature-card-text">
                                         Infusé d'herbes parfumées, d'épices et d'huiles essentielles, notre sel aromatisé vous fera voyager grâce à son goût relevé et complexe.
-                                        Riches en minéraux et en composés thérapeutiques, les sels aromatisés apaisent les muscles, détoxifient l'organisme, et favorisent la relaxation 
-                                        du corps.
                                     </p>
+                                    <p className="mb-0 feature-card-text">
+                                        Riches en minéraux et en composés thérapeutiques,
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                les sels aromatisés apaisent les muscles,
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                et favorisent la relaxation du corps.
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                et contribuent à la santé oculaire.
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                                 <div className="col mb-5 h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
@@ -152,10 +219,31 @@ export default function Flavors() {
                                             Pistache
                                         </a>
                                     </h2>
-                                    <p className="mb-0">
+                                    <p className="mb-0 feature-card-text">
                                         Originaires des anciennes terres du Moyen-Orient, les pistaches sont chéries depuis des millénaires comme symboles de vitalité et d'abondance. 
-                                        Regorgeant d'élements nutritifs, ces petits joyaux d'émeraude offrent une pléthore d'avantages pour la santé : graisses saines, fibres, antioxydants, 
-                                        elles contribuent à la bonne santé cardiovasculaire, et se déclinent en une myriade de possibilités culinaires différentes.
+                                    </p>
+                                    <p className="mb-0 feature-card-text">
+                                        Regorgeant d'élements nutritifs, ces petits joyaux d'émeraude offrent une pléthore d'avantages pour la santé : 
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                graisses saines,
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                fibres,
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                antioxydants, 
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <p className="mb-0 feature-card-text">
+                                        Elles contribuent à la bonne santé cardio vasculaire, et se déclinent en une myriade de possibilités culinaires différentes.
                                     </p>
                                 </div>
                                 <div className="col mb-5 h-100">
@@ -169,10 +257,14 @@ export default function Flavors() {
                                             Olive
                                         </a>
                                     </h2>
-                                    <p className="mb-0">
-                                        Derrière les bosquets du climat méditerrannéen, les olives représentent richesse culturelle, et saveurs intenses. Leurs graisses saines, et leurs antioxydants 
-                                        ne sont pas les seules propriétés qui ont fait des olives de véritables pierres angulaires de la cuisine du sud de la France. Idéales pour les plats salés, 
-                                        salades, en huile, elles se dégustent également comme des simples fruits.
+                                    <p className="mb-0 feature-card-text">
+                                        Derrière les bosquets du climat méditerrannéen, les olives représentent richesse culturelle, et saveurs intenses. 
+                                    </p>
+                                    <p className="mb-0 feature-card-text">
+                                        Leurs graisses saines, et leurs antioxydants ne sont pas les seules propriétés qui ont fait des olives de véritables pierres angulaires de la cuisine du sud de la France. 
+                                    </p>
+                                    <p className="mb-0 feature-card-text">
+                                        Idéales pour les plats salés, salades, en huile, elles se dégustent également comme des simples fruits.
                                     </p>
                                 </div>
                             </div>
