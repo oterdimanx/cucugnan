@@ -11683,8 +11683,12 @@ a, a:hover {
   opacity: 0.5;
   background-image: url('../public/map/marker.svg');
 }
+
+.map-seven {
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
 /*
 .map-img-round {
-  animation: number7 6s backwards 2;
+  animation: scale 6s backwards 2;
   animation-delay: 0ms;
 }*/
