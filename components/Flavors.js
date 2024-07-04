@@ -34,37 +34,35 @@ export default function Flavors() {
                                 Cette terre ocrée est le fruit de gisements de sels créés par la disparition de la <b>mer</b>.
                                 Ainsi, les cultures résultantes sont enrichies en potassium et en magnésium.
                             </p>
+
+                            <div className="col mb-5 h-18"></div>
+
+                            <div className="col mb-5 h-100 toggle-flav">
+                                <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                    <div className="flavors-ico">
+                                        <img className="img-fluid rounded-3 my-5" src={oliveImg.src} alt="features-olive-48-48.png image" />
+                                    </div>
+                                </div>
+                                <h2 className="h5">
+                                    <a href="./nos-produits#olive">
+                                        Olive
+                                    </a>
+                                </h2>
+                                <p className="mb-0 feature-card-text">
+                                    Derrière les bosquets du climat méditerrannéen, les olives représentent richesse culturelle, et saveurs intenses. 
+                                </p>
+                                <p className="mb-0 feature-card-text">
+                                    Leurs <b>graisses saines</b>, et leurs <b>antioxydants</b> ne sont pas les seules propriétés qui ont fait des olives de véritables pierres angulaires de la cuisine du sud de la France. 
+                                </p>
+                                <p className="mb-0 feature-card-text">
+                                    Idéales pour les plats salés, salades, en huile, elles se dégustent également comme des simples fruits.
+                                </p>
+                            </div>
                         </div>
 
-                        <div className="col mb-5 h-100 toggle-saffron">
-                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                                        <div className="flavors-ico">
-                                            <img className="img-fluid rounded-3 my-5" src={saffronImg.src} alt="features-saffron-48-48.png image" />
-                                        </div>
-                                    </div>
-                                    <h2 className="h5">
-                                        <a href="./nos-produits#saffron">
-                                            Safran
-                                        </a>
-                                    </h2>
-                                    <p className="mb-0 feature-card-text">
-                                        Réputé pour ses saveurs riches et sa teinte vibrante, le safran est à lui seul un pur concentré de bien-être :
-                                    </p>
-                                    <ul>
-                                        <li>
-                                            <div>
-                                                riche en antioxydants, il contribue à conserver un système immunitaire sain, grâce à certaines propriétés
-                                                anti-inflammatoires.
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <p className="mb-0 feature-card-text">
-                                        Le safran élève les plats en nourrissant le corps.
-                                    </p>
-                                </div>
                         <div className="col-lg-8">
                             <div className="row gx-5 row-cols-1 row-cols-md-2">
-                                <div className="col mb-5 h-100 saffron">
+                                <div className="col mb-5 h-100">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <div className="flavors-ico">
                                             <img className="img-fluid rounded-3 my-5" src={saffronImg.src} alt="features-saffron-48-48.png image" />
@@ -81,7 +79,7 @@ export default function Flavors() {
                                     <ul>
                                         <li>
                                             <div>
-                                                riche en antioxydants, il contribue à conserver un système immunitaire sain, grâce à certaines propriétés
+                                                riche en <b>antioxydants</b>, il contribue à conserver un <b>système immunitaire sain</b>, grâce à certaines propriétés
                                                 anti-inflammatoires.
                                             </div>
                                         </li>
@@ -105,8 +103,8 @@ export default function Flavors() {
                                         Les amandes sont également synonymes de santé et de vitalité. 
                                     </p>
                                     <p className="mb-0 feature-card-text">
-                                        Riches en vitamine E, en magnésium et en bonnes graisses, les amandes favorisent 
-                                        la santé cardiaque, et aident à maintenir les fonctions cérébrales en bonne forme. 
+                                        Riches en <b>vitamine E</b>, en <b>magnésium</b> et en bonnes graisses, les amandes favorisent 
+                                        la <b>santé cardiaque</b>, et aident à maintenir les fonctions cérébrales en bonne forme. 
                                     </p>
                                     <p className="mb-0 feature-card-text">
                                         Elles sont également bonnes pour la peau et les cheveux, révélant leur bienfaits intemporels.
@@ -124,14 +122,14 @@ export default function Flavors() {
                                         </a>
                                     </h2>
                                     <p className="mb-0 feature-card-text">
-                                        Issu du coeur de la tradition culinaire chinoise, le poivre du Sichuan a la réputation d'apporter à celui qui le consomme 
+                                        Issu du coeur de la tradition culinaire chinoise, le <b>poivre du Sichuan</b> a la réputation d'apporter à celui qui le consomme 
                                         une unique et légère sensation d'engourdissement, et ses touches d'agrumes ajoutent toujours du dynamisme à vos plats.
                                     </p>
                                     <p className="mb-0 feature-card-text">
-                                        Cette catégorie particulière de poivre possède également des vertus médicinales, facilitant la digestion, et soulageant certains maux.
+                                        Cette catégorie particulière de poivre possède également des vertus <b>médicinales</b>, facilitant la <b>digestion</b>, et <b>soulageant certains maux</b>.
                                     </p>
                                     <p className="mb-0 feature-card-text">
-                                        Le poivre du Sichuan présente enfin un fort caractère symbolique, présent dans certains rituels et célébrations traditionnelles chinoises.
+                                        Le <b>poivre du Sichuan</b> présente enfin un fort caractère symbolique, présent dans certains rituels et célébrations traditionnelles chinoises.
                                     </p>
                                 </div>
                                 <div className="col mb-5 h-100">
@@ -149,7 +147,7 @@ export default function Flavors() {
                                         Originaires des luxuriantes vallées d'Asie, ces minuscules gemmes rouges sont à la fois une friandise, et un élément essentiel pour certaines traditions culturelles. 
                                     </p>
                                     <p className="mb-0 feature-card-text">
-                                        Favorisant le bien-être général avec leurs antioxydants, vitamines, et minéraux, 
+                                        Favorisant le bien-être général avec leurs <b>antioxydants, vitamines, et minéraux</b>, 
                                     </p>
                                     <ul>
                                         <li>
@@ -185,10 +183,10 @@ export default function Flavors() {
                                         </a>
                                     </h2>
                                     <p className="mb-0 feature-card-text">
-                                        Infusé d'herbes parfumées, d'épices et d'huiles essentielles, notre sel aromatisé vous fera voyager grâce à son goût relevé et complexe.
+                                        Infusé d'<b>herbes parfumées</b>, d'épices et d'<b>huiles essentielles</b>, notre sel aromatisé vous fera voyager grâce à son goût <b>relevé et complexe</b>.
                                     </p>
                                     <p className="mb-0 feature-card-text">
-                                        Riches en minéraux et en composés thérapeutiques,
+                                        Riches en <b>minéraux et en composés thérapeutiques</b>,
                                     </p>
                                     <ul>
                                         <li>
@@ -220,7 +218,7 @@ export default function Flavors() {
                                         </a>
                                     </h2>
                                     <p className="mb-0 feature-card-text">
-                                        Originaires des anciennes terres du Moyen-Orient, les pistaches sont chéries depuis des millénaires comme symboles de vitalité et d'abondance. 
+                                        Originaires des anciennes terres du Moyen-Orient, les pistaches sont chéries depuis des millénaires comme symboles de <b>vitalité et d'abondance</b>. 
                                     </p>
                                     <p className="mb-0 feature-card-text">
                                         Regorgeant d'élements nutritifs, ces petits joyaux d'émeraude offrent une pléthore d'avantages pour la santé : 
@@ -246,7 +244,7 @@ export default function Flavors() {
                                         Elles contribuent à la bonne santé cardio vasculaire, et se déclinent en une myriade de possibilités culinaires différentes.
                                     </p>
                                 </div>
-                                <div className="col mb-5 h-100">
+                                <div className="col mb-5 h-100 flav">
                                     <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                                         <div className="flavors-ico">
                                             <img className="img-fluid rounded-3 my-5" src={oliveImg.src} alt="features-olive-48-48.png image" />
@@ -261,7 +259,7 @@ export default function Flavors() {
                                         Derrière les bosquets du climat méditerrannéen, les olives représentent richesse culturelle, et saveurs intenses. 
                                     </p>
                                     <p className="mb-0 feature-card-text">
-                                        Leurs graisses saines, et leurs antioxydants ne sont pas les seules propriétés qui ont fait des olives de véritables pierres angulaires de la cuisine du sud de la France. 
+                                        Leurs <b>graisses saines</b>, et leurs <b>antioxydants</b> ne sont pas les seules propriétés qui ont fait des olives de véritables pierres angulaires de la cuisine du sud de la France. 
                                     </p>
                                     <p className="mb-0 feature-card-text">
                                         Idéales pour les plats salés, salades, en huile, elles se dégustent également comme des simples fruits.

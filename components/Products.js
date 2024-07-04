@@ -15,9 +15,12 @@ export default function Products() {
             <div className="container px-5 my-5">
                 <div className="text-center mb-5">
                     <h1 className="display-6 fw-bolder header-products">Nos produits</h1>
-                    <p className="lead fw-normal text-muted mb-0">Les 7 saveurs de Cucugnan vous présente ses différentes épices, 
-                    dont la vente se fait sur place. En attendant que les commandes puissent être passées via notre site, il vous faudra 
-                    venir sur place pour les découvrir. Sinon, contactez-nous.</p>
+                    <p className="lead fw-normal text-muted mb-0">
+                        Les 7 saveurs de Cucugnan vous présente ses différentes épices, 
+                        dont la vente se fait sur place. En attendant que les commandes puissent être passées via notre site, il vous faudra 
+                        venir sur place pour les découvrir. Sinon, <a href="./contact" className="btn-products-intro">
+                                    Contactez-nous</a>.
+                    </p>
                 </div>
                 <article className="postcard dark blue">
                     <div className="postcard__img_link">
@@ -321,7 +324,7 @@ export default function Products() {
                         </ul>
                     </div>
                 </article>
-                <div className="row gx-5 row-cols-1 row-cols-lg-4 py-5 justify-content-center">
+                <div className="row gx-5 row-cols-1 row-cols-lg-4 justify-content-center">
                     <div className="col">
                         <LogoImg />
                     </div>

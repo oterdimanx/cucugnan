@@ -177,7 +177,7 @@ export default function Contact() {
                 </div>
                 <script src="js/scripts.js"></script>
             </div>
-            <div className="row gx-5 row-cols-2 row-cols-lg-4 py-5 justify-content-center">
+            <div className="row gx-5 row-cols-2 row-cols-lg-4 justify-content-center">
                 <div className="col">
                     <LogoImg />
                 </div>

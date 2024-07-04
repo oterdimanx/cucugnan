@@ -4198,11 +4198,11 @@ textarea.form-control-lg {
 
 .navbar-dark {
   --bs-navbar-color: rgba(255, 255, 255, 0.55);
-  --bs-navbar-hover-color: #412393;
+  --bs-navbar-hover-color: #fff;
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
   --bs-navbar-active-color: rgb(188, 157, 98);
   --bs-navbar-brand-color: rgb(247, 191, 59);
-  --bs-navbar-brand-hover-color: #412393;
+  --bs-navbar-brand-hover-color: #fff;
   --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -7361,6 +7361,10 @@ textarea.form-control-lg {
 
 .min-vw-100 {
   min-width: 100vw !important;
+}
+
+.h-18 {
+  height: 18% !important;
 }
 
 .h-25 {
@@ -10939,15 +10943,15 @@ textarea.form-control-lg {
 /** 
 * Mobile devices feature display
 **/
-.toggle-saffron {
+.toggle-flav {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
-  .toggle-saffron {
+@media screen and (min-width: 992px) {
+  .toggle-flav {
     display: block;
   }
-  .saffron {
+  .flav {
     display: none;
   }
 }
@@ -10979,6 +10983,18 @@ textarea.form-control-lg {
 
 .btn-gite {
   margin: 2rem 0 0 0;
+}
+
+.btn-products-intro {
+  color: var(--bs-gold);
+}
+
+.btn-products-intro:hover {
+  color: #fff;
+}
+
+.text-header-gite {
+  max-width: 92%;
 }
 
 .text-gite {
@@ -11387,6 +11403,45 @@ a, a:hover {
   object-fit: cover;
 }
 
+.postcard__img:hover {
+
+  animation: morph 2s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  animation-delay: 0ms;
+}
+
+@keyframes morph {
+  10% {
+    transform: scale(1.01);
+  }
+  20% {
+    transform: scale(1.02);
+  }
+  30% {
+    transform: scale(1.03);
+  }
+  40% {
+    transform: scale(1.04);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  60% {
+    transform: scale(1.06);
+  }
+  70% {
+    transform: scale(1.07);
+  }
+  80% {
+    transform: scale(1.08);
+  }
+  90% {
+    transform: scale(1.09);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
 .postcard .postcard__img_link {
   display: contents;
 }
@@ -11396,7 +11451,7 @@ a, a:hover {
   height: 10px;
   margin: 10px 0;
   border-radius: 5px;
-  background-color: #424242;
+  background-color: #434343;
   transition: width 0.2s ease;
 }
 
@@ -11606,6 +11661,16 @@ a, a:hover {
 			transparent 50%
 		);
 	}
+}
+
+@media screen and (min-width: 769px) {
+ .postcard__img_link {
+  max-width: 100%;
+  overflow: hidden;
+ }
+ .postcard__img {
+  display: inline;
+ }
 }
 
 .pin {
