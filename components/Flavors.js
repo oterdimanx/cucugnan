@@ -34,9 +34,6 @@ export default function Flavors() {
                                 Cette terre ocrée est le fruit de gisements de sels créés par la disparition de la <b>mer</b>.
                                 Ainsi, les cultures résultantes sont enrichies en potassium et en magnésium.
                             </p>
-
-                            <div className="col mb-5 h-18"></div>
-
                             <div className="col mb-5 h-100 toggle-flav">
                                 <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                                     <div className="flavors-ico">

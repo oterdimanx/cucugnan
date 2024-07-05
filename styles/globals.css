@@ -10964,13 +10964,7 @@ textarea.form-control-lg {
   background-color: var(--bs-mid-rgb);
 }
 
-.header-products {
-  color: var(--bs-gold);
-  font-family: var(--bs-font-intro);
-  font-size: 3rem;
-}
-
-.header-gite {
+.header-gite, .header-cgu, .header-products {
   color: var(--bs-gold);
   font-family: var(--bs-font-intro);
   font-size: 3rem;
@@ -10994,7 +10988,8 @@ textarea.form-control-lg {
 }
 
 .text-header-gite {
-  max-width: 92%;
+  flex-flow: row wrap;
+  display: flex;
 }
 
 .text-gite {
@@ -11686,6 +11681,10 @@ a, a:hover {
 
 .map-seven {
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.cgu {
+  margin-bottom: -90px;
 }
 /*
 .map-img-round {

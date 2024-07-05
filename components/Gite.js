@@ -17,8 +17,8 @@ export default function Gite() {
                                 <p className="lead fw-normal text-muted mb-4 text-header-gite">
                                     Dès le mois d'avril 2025, notre gite vous accueille toute l'année.
                                     Vous rêvez de passer un week-end ou une semaine en pleine nature, dans un cadre bucolique... ?
-                                    
-                                    Prenez le temps d'une pause dans la région et découvrez notre savoir-faire et notre gite.
+                                    <span>
+                                    Prenez le temps d'une pause dans la région et découvrez notre savoir-faire et notre gite.</span>
                                 </p>
                                 <a className="btn btn-outline-light btn-lg px-4" href="#gite-interieur">
                                     Voir les détails
