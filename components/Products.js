@@ -11,17 +11,29 @@ import LogoImg from '@components/logo/LogoImg'
 export default function Products() {
     return (
       <>
-        <section className="bg-dark py-5">
-            <div className="container px-5 my-5">
-                <div className="text-center mb-5">
-                    <h1 className="display-6 fw-bolder header-products">Nos produits</h1>
-                    <p className="lead fw-normal text-muted mb-0">
-                        Les 7 saveurs de Cucugnan vous présente ses différentes épices, 
-                        dont la vente se fait sur place. En attendant que les commandes puissent être passées via notre site, il vous faudra 
-                        venir sur place pour les découvrir. Sinon, <a href="./contact" className="btn-products-intro">
-                                    Contactez-nous</a>.
-                    </p>
+        <header className="py-5 bg-dark">
+            <div className="container px-5">
+                <div className="row justify-content-center">
+                    <div className="col-lg-8 col-xxl-6">
+                        <div className="text-center my-5">
+                            <h1 className="display-6 fw-bolder mb-3 header-products">
+                                Nos produits
+                            </h1>
+                            <p className="lead fw-normal mb-4 text-header-products">
+                                Les 7 saveurs de Cucugnan vous présente ses différentes épices, 
+                                dont la vente se fait sur place. En attendant que les commandes puissent être passées via notre site, il vous faudra 
+                                venir sur place pour les découvrir. Sinon,
+                            </p>
+                            <a className="btn btn-outline-light btn-lg px-4" href="./contact">
+                                Contactez-nous
+                            </a>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </header>
+        <section className="bg-light py-5">
+            <div className="container px-5 my-5">
                 <article className="postcard dark blue">
                     <div className="postcard__img_link">
                         <img className="postcard__img" src={altSafranImg.src} alt="Cucugnan Nos Produits Safran Image Png" id="saffron"  />
@@ -324,13 +336,17 @@ export default function Products() {
                         </ul>
                     </div>
                 </article>
-                <div className="row gx-5 row-cols-1 row-cols-lg-4 justify-content-center">
-                    <div className="col">
-                        <LogoImg />
-                    </div>
-                </div>
 	        </div>
         </section>
+        <section className="bg-dark py-5">
+        <div className="container px-5 my-5">
+            <div className="row gx-5 row-cols-2 row-cols-lg-4 justify-content-center">
+                <div className="col">
+                    <LogoImg />
+                </div>
+            </div>
+        </div>
+    </section>
       </>
     )
   }

@@ -11,7 +11,7 @@ export default function Footer() {
                       <img src="/golden-logo-transparent-200-200.png" alt="Les 7 saveurs de Cucugnan Logo 200" className={styles.logo} />
                     </div>
                     <div className="col-auto">
-                        <a className="link-light small" href="./cgu#datas">Gestion des Données Personnelles</a>
+                        <a className="link-light small" href="./cgu#article-3">Gestion des Données Personnelles</a>
                         <span className="text-white mx-1">&middot;</span>
                         <a className="link-light small" href="./cgu" title="Conditions Générales d'Utilisation">C.G.U.</a>
                         <span className="text-white mx-1">&middot;</span>

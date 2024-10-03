@@ -1,5 +1,5 @@
 import LogoImg from '@components/logo/LogoImg'
-import GiteInsideImg from '../public/gite/7saveursdecucugnan-gite-interieur-600.png'
+import GiteConstructionImg from '../public/gite/7saveurs-de-cucugnan-en-construction-600-400.png'
 import GiteSafariLodgeImg from '../public/gite/7saveurs-de-cucugnan-luxury-safari-lodge-1-600-400.png'
 import GiteQueribusImg from '../public/gite/7saveurs-de-cucugnan-chateau-queribus-1-600-400.png'
 
@@ -14,11 +14,10 @@ export default function Gite() {
                                 <h1 className="display-6 fw-bolder mb-3 header-gite">
                                     Ouverture en avril 2025
                                 </h1>
-                                <p className="lead fw-normal text-muted mb-4 text-header-gite">
-                                    Dès le mois d'avril 2025, notre gite vous accueille toute l'année.
-                                    Vous rêvez de passer un week-end ou une semaine en pleine nature, dans un cadre bucolique... ?
+                                <p className="lead fw-normal mb-4 text-header-gite">
+                                    Vous rêvez de passer un week-end ou une semaine en pleine nature, dans un cadre bucolique ?
                                     <span>
-                                    Prenez le temps d'une pause dans la région et découvrez notre savoir-faire et notre gite.</span>
+                                    Prenez le temps d'une pause dans la région Occitanie et découvrez notre savoir-faire et notre gite.</span>
                                 </p>
                                 <a className="btn btn-outline-light btn-lg px-4" href="#gite-interieur">
                                     Voir les détails
@@ -39,13 +38,13 @@ export default function Gite() {
                                 Le cadre et la région
                             </h2>
                             <p className="regular text-muted mb-0 text-gite">
-                                Quelle que soit la période de l'année, nous vous accueillons dans notre gite, dans une ambiance relaxante et chaleureuse. 
-                                Aux pieds du dernier bastion Cathare, <b>le château de Queribus</b>.
+                                &Agrave; partir du mois de juin jusqu'en octobre, nous vous accueillons dans une ambiance calme et reposante 
+                                aux pieds du dernier bastion Cathare, <b>le fameux château de Queribus</b>.
                             </p>
                             <p className="regular text-muted mb-0 text-gite">
-                                Il est idéalement situé pour partir à pieds visiter le château, 
-                                à une heure de balade et environ à 15 minutes des autres châteaux de la région : 
-                                <b>Peyrepetuse, Aguilar</b>, etc.
+                                Il est idéalement situé pour visiter à pieds le château, vous trouverez en effet le début de la randonnée aux pieds du gite.
+                                &Agrave; 15 minutes en voiture, vous pourrez découvrir les autres châteaux de la région 
+                                (<b>Peyrepetuse, Aguilar</b>...).
                             </p>
                         </div>
                     </div>
@@ -55,16 +54,35 @@ export default function Gite() {
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6 order-first order-lg-last">
-                            <img className="img-fluid rounded mb-5 mb-lg-0" src={GiteSafariLodgeImg.src} alt="Les 7 saveurs de Cucugnan - Le Gite - Luxury Safari Lodge - Photo Extérieur png" />
+                            <img className="img-fluid rounded mb-5 mb-lg-0" src={GiteConstructionImg.src} alt="Les 7 saveurs de Cucugnan - Le Gite - Luxury Safari Lodge - Photo Extérieur png" />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder title-gite">Un intérieur chaleureux</h2>
+                            <h2 className="fw-bolder title-gite">Le gîte des sept saveurs</h2>
                             <p className="regular text-muted mb-0 text-gite">
-                                A <b>40 minutes de Perpignan</b>, et <b>1h15 de Carcassonne</b>, notre gite en pleine nature vous séduira.
+                                Vous recherchez un gîte dans le sud de la France ?
+                                Le gîte est situé <b>au pays cathares</b>, il vous accueille au coeur du parc naturel régional <b>du haut Languedoc Roussillon</b>.
                             </p>
                             <p className="regular text-muted mb-0 text-gite">
-                                Que ce soit pour apprécier la tranquilité, le doux ronronnement des criquets dans l'après-midi, ou pour découvrir notre activité et la région, 
-                                vous trouverez mille façons de profiter pleinement de cet environnement exceptionnel. 
+                                Pour votre confort, il est doté d'une cuisine équipée, d'une Salle de bain, WC, de deux chambres doubles, et d'un canapé lit 
+                                dans le salon.
+                            </p>
+                            <p className="regular text-muted mb-0 text-gite">
+                                La capacité du gîte est de 4 à 6 personnes. Une terrasse privative avec vue sur la vallée vous permettra de prendre vos repas 
+                                en toute tranquilité.
+                                <br/>
+                                Enfin, le gite dispose d'un spa ainsi que d'un parking privé.
+                            </p>
+                            <p className="regular text-muted mb-0 text-gite">
+                                &Agrave; proximité vous trouverez des restaurants, une épicerie, et une célèbre boulangerie.
+                                <br/>
+                                L'accès au gite se fera par un chemin en terre, accessible en voiture. La région est riche en activités : 
+                                randonnées pedestres ou à vélo, à proximité des points de baignade de la rivière du verdouble, et des visites des châteaux Cathares.
+                            </p>
+                            <p className="regular text-muted mb-0 text-gite">
+                                Il se situe à une heure des plages du Languedoc (Canet en Roussillon, Le Barcares et Leucate).
+                            </p>
+                            <p className="regular text-muted mb-0 text-gite">
+                                Nous vous attendons avec impatience.
                             </p>
                             <p className="regular text-muted mb-0 text-gite">
                                 <b>Pour connaître nos tarifs et pour plus de détails,</b>
