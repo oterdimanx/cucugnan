@@ -17,7 +17,7 @@ export default function Gite() {
                                 <p className="lead fw-normal mb-4 text-header-gite">
                                     Vous rêvez de passer un week-end ou une semaine en pleine nature, dans un cadre bucolique ?
                                     <span>
-                                    Prenez le temps d'une pause dans la région Occitanie et découvrez notre savoir-faire et notre gite.</span>
+                                    Prenez le temps d'une pause dans la région d'Occitanie et découvrez notre savoir-faire et notre gite.</span>
                                 </p>
                                 <a className="btn btn-outline-light btn-lg px-4" href="#gite-interieur">
                                     Voir les détails
@@ -38,7 +38,7 @@ export default function Gite() {
                                 Le cadre et la région
                             </h2>
                             <p className="regular text-muted mb-0 text-gite">
-                                &Agrave; partir du mois de juin jusqu'en octobre, nous vous accueillons dans une ambiance calme et reposante 
+                                &Agrave; partir du mois d'avril jusqu'en octobre, nous vous accueillons dans une ambiance calme et reposante 
                                 aux pieds du dernier bastion Cathare, <b>le fameux château de Queribus</b>.
                             </p>
                             <p className="regular text-muted mb-0 text-gite">
