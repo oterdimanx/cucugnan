@@ -1,7 +1,8 @@
-//import cucugnanMapImg from '../public/map-cucugnan.png'
+import React, {lazy, Suspense } from 'react'
 import flowerImg from '../public/golden-flower-transparent-map-40-40.png'
+//import cucugnanMapImg from '../public/map-cucugnan.png'
 
-import Map from '@components/map/Map'
+const Map = lazy(() => import('@components/map/Map'));
 
 export default function Location() {
     return (
@@ -22,7 +23,9 @@ export default function Location() {
                     <div className="row gx-5 justify-content-center">
                         <div className="col-md-auto">
                             <div className="card h-100 shadow border-0">
-                                <Map class="w-100" height="400" />
+                                <Suspense fallback={<div>Loading...</div>}>
+                                    <Map class="w-100" height="400" />
+                                </Suspense>
                                 <div className="card-body p-4">
                                     <div className="badge bg-primary bg-gradient rounded-pill mb-2">Routes</div>
                                     <a className="text-decoration-none link-dark stretched-link" href="./#top">
