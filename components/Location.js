@@ -1,8 +1,8 @@
-import React, {lazy, Suspense } from 'react'
+import React, { Suspense } from 'react';
 import flowerImg from '../public/golden-flower-transparent-map-40-40.png'
 //import cucugnanMapImg from '../public/map-cucugnan.png'
 
-const Map = lazy(() => import('@components/map/Map'));
+const Map = React.lazy(() => import('@components/map/Map'));
 
 export default function Location() {
     return (

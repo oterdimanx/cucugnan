@@ -63,13 +63,12 @@ export default function Gite() {
                                 Le gîte est situé <b>au pays cathares</b>, il vous accueille au coeur du parc naturel régional <b>du haut Languedoc Roussillon</b>.
                             </p>
                             <p className="regular text-muted mb-0 text-gite">
-                                Pour votre confort, il est doté d'une cuisine équipée, d'une Salle de bain, WC, de deux chambres doubles, et d'un canapé lit 
+                                Pour votre confort, il est doté d'une cuisine équipée, d'une salle d'eau, WC, de deux chambres doubles, et d'un canapé lit 
                                 dans le salon.
                             </p>
                             <p className="regular text-muted mb-0 text-gite">
                                 La capacité du gîte est de 4 à 6 personnes. Une terrasse privative avec vue sur la vallée vous permettra de prendre vos repas 
                                 en toute tranquilité.
-                                <br/>
                                 Enfin, le gite dispose d'un spa ainsi que d'un parking privé.
                             </p>
                             <p className="regular text-muted mb-0 text-gite">
