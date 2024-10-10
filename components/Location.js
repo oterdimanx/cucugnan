@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react';
 import flowerImg from '../public/golden-flower-transparent-map-40-40.png'
-//import cucugnanMapImg from '../public/map-cucugnan.png'
 
 const Map = React.lazy(() => import('@components/map/Map'));
 
@@ -28,11 +27,9 @@ export default function Location() {
                                 </Suspense>
                                 <div className="card-body p-4">
                                     <div className="badge bg-primary bg-gradient rounded-pill mb-2">Routes</div>
-                                    <a className="text-decoration-none link-dark stretched-link" href="./#top">
-                                        <h5 className="card-title mb-3">
-                                            Rejoignez nous via les routes départementales D14 et D123.
-                                        </h5>
-                                    </a>
+                                    <h5 className="card-title mb-3">
+                                        Rejoignez nous via les routes départementales D14 et D123.
+                                    </h5>
                                     <p className="card-text mb-0">
                                         Chemin de Granan
                                         11350
