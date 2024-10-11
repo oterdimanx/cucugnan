@@ -14,6 +14,7 @@ export default function Custom404() {
         <meta name="author" content="Les 7 saveurs de Cucugnan est un producteur français d'épices. Il est la propriété de Vincent Busquet." />
         <title>Les 7 saveurs de Cucugnan - 404 Error</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://www.7saveursdecucugnan.fr" />
       </Head>
       <main className="flex-shrink-0">
         <Header title="Les 7 saveurs de Cucugnan" />

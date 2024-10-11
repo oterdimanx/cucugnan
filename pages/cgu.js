@@ -14,6 +14,7 @@ export default function HomeCgu() {
         <meta name="author" content="Les 7 saveurs de Cucugnan est un producteur français d'épices." />
         <title>Les 7 saveurs de Cucugnan - Conditions Générales d'Utilisation</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://www.7saveursdecucugnan.fr" />
       </Head>
       <main className="flex-shrink-0">
         <Header title="Les 7 saveurs de Cucugnan" />

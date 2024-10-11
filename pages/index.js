@@ -16,6 +16,7 @@ export default function Home() {
         <meta name="author" content="Les 7 saveurs de Cucugnan est un producteur français d'épices. Le site est créé par l'entreprise individuelle O.Terdiman olivier@terdiman.fr" />
         <title>Les 7 saveurs de Cucugnan</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://www.7saveursdecucugnan.fr" />
       </Head>
       <main className="flex-shrink-0" id="top">
         <Header title="Les 7 saveurs de Cucugnan" />
